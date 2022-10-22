@@ -5,15 +5,12 @@ public void Exercise2(int computer_amount){
 	if(computer_amount == 1 || computer_amount == 2)
 			base_fee = 100;
 			additional_fee = 0;
-			break;
 	else if(computer_amount >=3 && computer_amount <=10)
 			base_fee = 100;
 			additional_fee = 10;
-			break;
 	else if(computer_amount>10)
 			base_fee = 500;
 			additional_fee = 10;
-			break;
 	}
 	
 	if (!contains(service_time, business_hour)) base_fee *= base_fee;
