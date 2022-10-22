@@ -1,0 +1,13 @@
+Brillyando Magathan Achmad
+1301204299
+IF4406
+
+Kasus *858# telkomsel
+
+PSPEC in Java
+
+void TelkomselServices(String input){
+	if(input=="*363#") buyQuota();
+	else if(input=="*858#") pulsaTransfer();
+	else if(input=="*888#") checkPulsa();
+}
